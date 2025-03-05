@@ -1,0 +1,11 @@
+Runnable Interface: The main class implements the Runnable interface. This allows instances of the class to be executed by threads.
+
+Constructor: The constructor takes a string (the thread's name) and assigns it to the threadHame field.
+
+run() Method: The run() method, which is part of the Runnable interface, contains the code that will be executed by each thread. In this case, it prints a message with the thread's name.
+
+Creating and Starting Threads:
+
+Inside the main method, a for loop creates and starts 10 threads.
+Each thread is instantiated with a unique name, such as THREAD_0, THREAD_1, etc.
+The new Thread(new main("THREAD_" + i)) statement creates a new thread and starts it.
